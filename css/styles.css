@@ -1,0 +1,82 @@
+/* shutterbug bootstrap project 12/3/2019 */
+
+.container {
+    max-width: 960px;
+  }
+
+  .main {
+    background-image: url(../images/intro.jpg);
+    height: 600px;
+    padding-top: 30px;
+    margin-bottom: 50px:
+  }
+
+.main h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 68px;
+    text-shadow: indianred 2px 2px 2px;
+    transition: text-shadow 3s;
+  }
+
+/* .main h1:hover {
+    text-shadow: darkblue 3px 3px 1px;
+} */
+
+.main h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+
+}
+
+div#content.section {
+  /* background-color: black; */
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#content.section h1 {
+padding-top: 180px;
+text-shadow: indianred 2px 2px 2px;
+text-transform: uppercase;
+}
+
+div#content.section p {
+  text-align:justify;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: ivory;
+    border-radius: 32px;
+}
+
+a.btn:hover {
+  /* color: purple; */
+  background-color: indianred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.row p {
+    font-family: 'Public Sans', sans-serif;
+}
+
+#store {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer h1 {
+    font-size: 28px;
+    font-family: 'Public Sans', sans-serif;
+    padding-top: 25px;
+
+}
+
+.footer ul  {
+  padding-left: 0px;
+  list-style-type: none;
+  }
